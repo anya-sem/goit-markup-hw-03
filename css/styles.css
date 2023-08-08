@@ -59,10 +59,6 @@ nav {
   padding: 0 15px;
   margin: 0 auto;
 }
-section {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -84,6 +80,7 @@ section {
 }
 .header-container {
   display: flex;
+  justify-content: space-between;
 }
 .header-logo {
   color: var(--primary-brand);
@@ -95,6 +92,7 @@ section {
   text-transform: uppercase;
   margin-right: 76px;
   padding: 24px 0;
+  display: block;
 }
 .header-logo-dark {
   color: var(--dark);
@@ -105,13 +103,13 @@ section {
 .header-list {
   display: flex;
   gap: 40px;
-  margin-right: 332px;
 }
 .header-list-item {
   color: var(--dark);
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: block;
   padding: 24px 0;
 }
 .header-list-item:hover,
@@ -132,6 +130,7 @@ section {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
+  display: block;
 }
 .address-list-item:hover,
 .address-list-item:focus {
@@ -210,9 +209,6 @@ section {
 /* Section 1 - Benefits */
 .benefits-section {
   padding: 120px 0;
-}
-.benefits-container {
-  width: 1128px;
 }
 .benefits-list {
   display: flex;
